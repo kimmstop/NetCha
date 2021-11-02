@@ -1,0 +1,185 @@
+2021/10/21 17:53:56 [crit] 6476#8784: *1 GetFileAttributesEx() "C:\Users\kimms\Desktop\webclienteact_proj\build" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "HEAD / HTTP/1.1", host: "localhost"
+2021/10/21 17:56:12 [notice] 4860#6220: signal process started
+2021/10/21 17:56:43 [crit] 9864#32: *1 GetFileAttributesEx() "C:\Users\kimms\Desktop\webclienteact_proj\build" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:3000"
+2021/10/21 17:56:43 [crit] 9864#32: *2 CreateFile() "C:\Users\kimms\Desktop\webclienteact_proj\build/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:3000", referrer: "http://localhost:3000/"
+2021/10/21 17:57:43 [crit] 9864#32: *3 GetFileAttributesEx() "C:\Users\kimms\Desktop\webclienteact_proj\build" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:3000"
+2021/10/21 17:57:43 [crit] 9864#32: *4 CreateFile() "C:\Users\kimms\Desktop\webclienteact_proj\build/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:3000", referrer: "http://localhost:3000/"
+2021/10/21 17:57:44 [crit] 9864#32: *5 GetFileAttributesEx() "C:\Users\kimms\Desktop\webclienteact_proj\build" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:3000"
+2021/10/21 17:57:44 [crit] 9864#32: *6 CreateFile() "C:\Users\kimms\Desktop\webclienteact_proj\build/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:3000", referrer: "http://localhost:3000/"
+2021/10/21 17:57:45 [crit] 9864#32: *7 GetFileAttributesEx() "C:\Users\kimms\Desktop\webclienteact_proj\build" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:3000"
+2021/10/21 17:57:45 [crit] 9864#32: *8 CreateFile() "C:\Users\kimms\Desktop\webclienteact_proj\build/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:3000", referrer: "http://localhost:3000/"
+2021/10/21 17:59:10 [emerg] 15272#2356: invalid number of arguments in "root" directive in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:45
+2021/10/21 17:59:18 [emerg] 10192#17140: invalid number of arguments in "root" directive in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:45
+2021/10/21 17:59:55 [notice] 14300#1272: signal process started
+2021/10/21 18:00:39 [notice] 10400#15756: signal process started
+2021/10/21 18:00:43 [crit] 3988#15040: *1 GetFileAttributesEx() "C:\Users\kimms\Desktop\webclienteact_proj\build" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:3000"
+2021/10/21 18:00:43 [crit] 3988#15040: *2 CreateFile() "C:\Users\kimms\Desktop\webclienteact_proj\build/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:3000", referrer: "http://localhost:3000/"
+2021/10/21 18:02:19 [crit] 12508#12636: *1 GetFileAttributesEx() "C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/\C:\Users\kimms\Desktop\webclienteact_proj\build" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:3000"
+2021/10/21 18:02:19 [crit] 12508#12636: *2 CreateFile() "C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/\C:\Users\kimms\Desktop\webclienteact_proj\build/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:3000", referrer: "http://localhost:3000/"
+2021/10/21 18:02:20 [crit] 12508#12636: *3 GetFileAttributesEx() "C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/\C:\Users\kimms\Desktop\webclienteact_proj\build" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:3000"
+2021/10/21 18:02:20 [crit] 12508#12636: *4 CreateFile() "C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/\C:\Users\kimms\Desktop\webclienteact_proj\build/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:3000", referrer: "http://localhost:3000/"
+2021/10/21 18:02:22 [crit] 12508#12636: *5 GetFileAttributesEx() "C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/\C:\Users\kimms\Desktop\webclienteact_proj\build" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:3000"
+2021/10/21 18:02:22 [crit] 12508#12636: *6 CreateFile() "C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/\C:\Users\kimms\Desktop\webclienteact_proj\build/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:3000", referrer: "http://localhost:3000/"
+2021/10/21 18:02:53 [notice] 16092#3160: signal process started
+2021/10/21 18:03:02 [notice] 8816#9656: signal process started
+2021/10/21 18:03:02 [error] 8816#9656: CreateFile() "C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/21 18:03:20 [notice] 12812#9380: signal process started
+2021/10/21 18:03:20 [error] 12812#9380: CreateFile() "C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/21 18:04:32 [notice] 8812#3624: signal process started
+2021/10/21 18:04:32 [error] 8812#3624: CreateFile() "C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/21 18:05:09 [notice] 15788#8624: signal process started
+2021/10/21 18:05:09 [error] 15788#8624: CreateFile() "C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/21 18:09:24 [notice] 15572#13892: signal process started
+2021/10/21 18:09:24 [error] 15572#13892: CreateFile() "C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/21 18:10:25 [crit] 3608#13184: *1 GetFileAttributesEx() "C:\Users\kimms\Desktop\webclienteact_proj\build" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/10/21 18:10:25 [crit] 3608#13184: *2 CreateFile() "C:\Users\kimms\Desktop\webclienteact_proj\build/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/21 18:12:45 [notice] 5668#15476: signal process started
+2021/10/21 18:13:41 [notice] 17216#16896: signal process started
+2021/10/21 18:13:42 [notice] 8512#16564: signal process started
+2021/10/21 18:13:42 [error] 8512#16564: CreateFile() "C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/21 18:36:04 [error] 5700#12828: *8 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /layout HTTP/1.1", upstream: "http://[::1]:8080/layout", host: "localhost"
+2021/10/21 18:36:06 [error] 5700#12828: *8 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /layout HTTP/1.1", upstream: "http://127.0.0.1:8080/layout", host: "localhost"
+2021/10/21 18:41:01 [error] 32#9356: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /layout HTTP/1.1", upstream: "http://[::1]:3000/layout", host: "localhost"
+2021/10/21 18:41:03 [error] 32#9356: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /layout HTTP/1.1", upstream: "http://127.0.0.1:3000/layout", host: "localhost"
+2021/10/21 18:45:50 [error] 15680#7568: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /layout HTTP/1.1", upstream: "http://[::1]:3000/layout", host: "localhost"
+2021/10/21 18:45:52 [error] 15680#7568: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /layout HTTP/1.1", upstream: "http://127.0.0.1:3000/layout", host: "localhost"
+2021/10/21 19:22:31 [error] 14984#16176: *1 directory index of "C:/Users/kimms/Desktop/webclient/react_proj/src/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/10/21 19:22:34 [error] 14984#16176: *1 directory index of "C:/Users/kimms/Desktop/webclient/react_proj/src/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/02 03:32:11 [error] 15828#11100: *3 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /layout HTTP/1.1", upstream: "http://127.0.0.1:8080/layout", host: "localhost:80", referrer: "http://localhost:3000/"
+2021/11/02 03:32:14 [error] 15828#11100: *6 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /layout HTTP/1.1", upstream: "http://[::1]:8080/layout", host: "localhost:80", referrer: "http://localhost:3000/"
+2021/11/02 03:32:14 [error] 15828#11100: *6 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /layout HTTP/1.1", upstream: "http://localhost/layout", host: "localhost:80", referrer: "http://localhost:3000/"
+2021/11/02 03:35:10 [notice] 1776#16184: signal process started
+2021/11/02 03:35:27 [error] 15628#9076: *5 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", host: "localhost:80", referrer: "http://localhost:3000/"
+2021/11/02 03:35:29 [error] 15628#9076: *6 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", host: "localhost:80", referrer: "http://localhost:3000/"
+2021/11/02 03:35:47 [notice] 4108#9008: signal process started
+2021/11/02 03:38:09 [error] 4240#16208: *17 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://[::1]:8080/netcha", host: "localhost:80", referrer: "http://localhost:3000/netcha"
+2021/11/02 03:38:11 [error] 4240#16208: *17 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://127.0.0.1:8080/netcha", host: "localhost:80", referrer: "http://localhost:3000/netcha"
+2021/11/02 03:39:02 [error] 4240#16208: *20 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://127.0.0.1:8080/netcha", host: "localhost"
+2021/11/02 03:39:04 [error] 4240#16208: *20 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://[::1]:8080/netcha", host: "localhost"
+2021/11/02 03:39:44 [notice] 16404#6292: signal process started
+2021/11/02 03:39:49 [notice] 15108#7924: signal process started
+2021/11/02 03:39:55 [error] 9020#5468: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://[::1]:8080/netcha", host: "localhost"
+2021/11/02 03:41:14 [error] 9020#5468: *7 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://127.0.0.1:8080/netcha", host: "localhost"
+2021/11/02 03:41:16 [error] 9020#5468: *7 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://[::1]:8080/netcha", host: "localhost"
+2021/11/02 03:41:34 [error] 9020#5468: *12 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://127.0.0.1:8080/netcha", host: "localhost:80", referrer: "http://localhost:3000/"
+2021/11/02 03:41:36 [error] 9020#5468: *12 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://[::1]:8080/netcha", host: "localhost:80", referrer: "http://localhost:3000/"
+2021/11/02 03:54:51 [notice] 16184#2804: signal process started
+2021/11/02 03:55:49 [notice] 7200#9700: signal process started
+2021/11/02 03:55:53 [notice] 8880#14744: signal process started
+2021/11/02 03:55:56 [notice] 12412#17272: signal process started
+2021/11/02 03:55:57 [notice] 8784#4396: signal process started
+2021/11/02 03:55:57 [error] 8784#4396: CreateFile() "C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/11/02 04:01:36 [notice] 15432#16096: signal process started
+2021/11/02 04:07:26 [notice] 11548#16048: signal process started
+2021/11/02 04:10:27 [notice] 2892#17396: signal process started
+2021/11/02 04:10:33 [notice] 9880#15468: signal process started
+2021/11/02 04:10:33 [error] 9880#15468: CreateFile() "C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/11/02 04:26:09 [notice] 16708#2892: signal process started
+2021/11/02 04:26:11 [notice] 15440#7620: signal process started
+2021/11/02 04:26:11 [notice] 11532#8280: signal process started
+2021/11/02 04:26:12 [notice] 9844#3148: signal process started
+2021/11/02 04:26:13 [notice] 15392#15532: signal process started
+2021/11/02 04:33:10 [error] 14748#5220: *21 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://[::1]:8080/netcha", host: "localhost", referrer: "http://localhost/"
+2021/11/02 04:33:12 [error] 14748#5220: *21 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://127.0.0.1:8080/netcha", host: "localhost", referrer: "http://localhost/"
+2021/11/02 04:33:33 [error] 14748#5220: *21 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://127.0.0.1:8080/netcha", host: "localhost"
+2021/11/02 04:33:37 [error] 14748#5220: *23 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://[::1]:8080/netcha", host: "localhost"
+2021/11/02 04:33:37 [error] 14748#5220: *23 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://localhost/netcha", host: "localhost"
+2021/11/02 04:33:41 [error] 14748#5220: *23 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://localhost/netcha", host: "localhost", referrer: "http://localhost/"
+2021/11/02 04:35:22 [error] 14748#5220: *30 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://127.0.0.1:8080/netcha", host: "localhost", referrer: "http://localhost/"
+2021/11/02 04:35:24 [error] 14748#5220: *30 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://[::1]:8080/netcha", host: "localhost", referrer: "http://localhost/"
+2021/11/02 04:35:27 [error] 14748#5220: *30 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://localhost/netcha", host: "localhost", referrer: "http://localhost/"
+2021/11/02 04:35:28 [error] 14748#5220: *30 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://localhost/netcha", host: "localhost", referrer: "http://localhost/"
+2021/11/02 04:35:28 [error] 14748#5220: *30 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://localhost/netcha", host: "localhost", referrer: "http://localhost/"
+2021/11/02 04:35:28 [error] 14748#5220: *30 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://localhost/netcha", host: "localhost", referrer: "http://localhost/"
+2021/11/02 04:35:28 [error] 14748#5220: *30 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://localhost/netcha", host: "localhost", referrer: "http://localhost/"
+2021/11/02 04:35:29 [error] 14748#5220: *30 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://localhost/netcha", host: "localhost", referrer: "http://localhost/"
+2021/11/02 04:35:29 [error] 14748#5220: *30 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://localhost/netcha", host: "localhost", referrer: "http://localhost/"
+2021/11/02 04:35:30 [error] 14748#5220: *30 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://localhost/netcha", host: "localhost", referrer: "http://localhost/"
+2021/11/02 04:37:14 [emerg] 14744#532: duplicate location "/" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:49
+2021/11/02 04:37:19 [emerg] 13468#16552: duplicate location "/" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:49
+2021/11/02 04:37:20 [emerg] 8612#16076: duplicate location "/" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:49
+2021/11/02 04:37:23 [emerg] 780#17300: duplicate location "/" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:49
+2021/11/02 04:37:25 [emerg] 5468#2444: duplicate location "/" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:49
+2021/11/02 04:37:27 [emerg] 1492#2780: duplicate location "/" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:49
+2021/11/02 04:37:35 [emerg] 15560#8280: duplicate location "/" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:49
+2021/11/02 04:37:37 [emerg] 16272#16560: duplicate location "/" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:49
+2021/11/02 04:37:37 [emerg] 304#15828: duplicate location "/" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:49
+2021/11/02 04:37:37 [emerg] 13532#13368: duplicate location "/" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:49
+2021/11/02 04:37:37 [emerg] 12016#5308: duplicate location "/" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:49
+2021/11/02 04:37:38 [emerg] 16316#2724: duplicate location "/" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:49
+2021/11/02 04:37:38 [emerg] 13628#11524: duplicate location "/" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:49
+2021/11/02 04:37:38 [emerg] 2224#13440: duplicate location "/" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:49
+2021/11/02 04:37:38 [emerg] 15364#8316: duplicate location "/" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:49
+2021/11/02 04:37:38 [emerg] 11644#11660: duplicate location "/" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:49
+2021/11/02 04:37:41 [emerg] 15936#8328: duplicate location "/" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:49
+2021/11/02 04:37:49 [emerg] 16868#12116: duplicate location "/" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:49
+2021/11/02 04:37:49 [alert] 9556#16484: worker process 16868 exited with code 1
+2021/11/02 04:37:49 [alert] 9556#16484: could not respawn worker
+2021/11/02 04:38:12 [emerg] 904#2672: duplicate location "/" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:49
+2021/11/02 04:38:48 [emerg] 7456#10532: duplicate location "/" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:49
+2021/11/02 04:39:29 [error] 2164#9956: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", upstream: "http://[::1]:8080/test", host: "localhost"
+2021/11/02 04:39:31 [error] 2164#9956: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", upstream: "http://127.0.0.1:8080/test", host: "localhost"
+2021/11/02 04:39:37 [error] 2164#9956: *1 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", upstream: "http://localhost/test", host: "localhost"
+2021/11/02 04:39:38 [error] 2164#9956: *1 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", upstream: "http://localhost/test", host: "localhost"
+2021/11/02 04:39:38 [error] 2164#9956: *1 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", upstream: "http://localhost/test", host: "localhost"
+2021/11/02 04:39:39 [error] 2164#9956: *1 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", upstream: "http://localhost/test", host: "localhost"
+2021/11/02 04:39:39 [error] 2164#9956: *1 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", upstream: "http://localhost/test", host: "localhost"
+2021/11/02 04:44:53 [notice] 16048#1156: signal process started
+2021/11/02 04:44:58 [notice] 16436#16544: signal process started
+2021/11/02 05:08:05 [notice] 14192#3924: signal process started
+2021/11/02 05:15:24 [notice] 11528#4948: signal process started
+2021/11/02 05:15:54 [notice] 11744#16784: signal process started
+2021/11/02 05:15:56 [notice] 15364#7200: signal process started
+2021/11/02 05:15:58 [notice] 13576#6784: signal process started
+2021/11/02 05:16:02 [notice] 11124#15528: signal process started
+2021/11/02 05:16:02 [error] 11124#15528: CreateFile() "C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/11/02 05:46:04 [notice] 14180#17120: signal process started
+2021/11/02 05:50:10 [notice] 14156#6936: signal process started
+2021/11/02 13:12:10 [error] 4180#1004: *10 directory index of "C:/Users/kimms/Desktop/netcha_front/fe/build/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/02 13:12:11 [error] 4180#1004: *10 directory index of "C:/Users/kimms/Desktop/netcha_front/fe/build/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/02 13:12:11 [error] 4180#1004: *10 directory index of "C:/Users/kimms/Desktop/netcha_front/fe/build/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/02 13:12:11 [error] 4180#1004: *10 directory index of "C:/Users/kimms/Desktop/netcha_front/fe/build/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/02 13:12:12 [error] 4180#1004: *10 directory index of "C:/Users/kimms/Desktop/netcha_front/fe/build/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/02 13:12:12 [error] 4180#1004: *10 directory index of "C:/Users/kimms/Desktop/netcha_front/fe/build/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/02 13:12:12 [error] 4180#1004: *10 directory index of "C:/Users/kimms/Desktop/netcha_front/fe/build/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/02 13:12:12 [error] 4180#1004: *10 directory index of "C:/Users/kimms/Desktop/netcha_front/fe/build/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/02 13:12:12 [error] 4180#1004: *10 directory index of "C:/Users/kimms/Desktop/netcha_front/fe/build/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/02 13:12:13 [error] 4180#1004: *10 directory index of "C:/Users/kimms/Desktop/netcha_front/fe/build/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/02 13:12:13 [error] 4180#1004: *10 directory index of "C:/Users/kimms/Desktop/netcha_front/fe/build/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/02 13:12:13 [error] 4180#1004: *10 directory index of "C:/Users/kimms/Desktop/netcha_front/fe/build/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/02 13:12:13 [error] 4180#1004: *10 directory index of "C:/Users/kimms/Desktop/netcha_front/fe/build/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/02 13:12:13 [error] 4180#1004: *10 directory index of "C:/Users/kimms/Desktop/netcha_front/fe/build/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/02 13:12:14 [error] 4180#1004: *10 directory index of "C:/Users/kimms/Desktop/netcha_front/fe/build/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/02 13:12:14 [error] 4180#1004: *10 directory index of "C:/Users/kimms/Desktop/netcha_front/fe/build/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/02 13:15:03 [error] 4180#1004: *13 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/11/02 13:15:33 [error] 4180#1004: *14 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://[::1]:8080/netcha", host: "localhost"
+2021/11/02 13:15:35 [error] 4180#1004: *14 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://127.0.0.1:8080/netcha", host: "localhost"
+2021/11/02 13:40:25 [notice] 15412#13136: signal process started
+2021/11/02 13:40:30 [notice] 4152#1772: signal process started
+2021/11/02 13:40:32 [emerg] 4156#16444: bind() to 0.0.0.0:3000 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2021/11/02 14:02:33 [notice] 9648#4140: signal process started
+2021/11/02 14:02:33 [error] 9648#4140: CreateFile() "C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/11/02 14:18:30 [emerg] 6392#9264: unexpected "}" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:51
+2021/11/02 14:19:07 [emerg] 6492#16916: unexpected "}" in C:\Users\kimms\Desktop\nginx-1.21.3\nginx-1.21.3/conf/nginx.conf:51
+2021/11/02 14:19:27 [notice] 8944#7560: signal process started
+2021/11/02 14:21:09 [notice] 1844#10020: signal process started
+2021/11/02 14:22:24 [notice] 17240#16680: signal process started
+2021/11/02 14:23:31 [notice] 4156#15676: signal process started
+2021/11/02 14:52:28 [notice] 16288#17808: signal process started
+2021/11/02 14:54:04 [notice] 7272#16872: signal process started
+2021/11/02 14:55:51 [notice] 4952#15564: signal process started
+2021/11/02 15:12:29 [notice] 16604#2040: signal process started
+2021/11/02 15:16:31 [notice] 15948#14000: signal process started
+2021/11/02 15:16:33 [emerg] 17020#18352: bind() to 0.0.0.0:3000 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2021/11/02 15:16:35 [emerg] 12952#17052: bind() to 0.0.0.0:3000 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2021/11/02 15:17:37 [notice] 6820#13984: signal process started
+2021/11/02 15:20:34 [notice] 3712#12184: signal process started
+2021/11/02 15:33:44 [notice] 15932#7760: signal process started
+2021/11/02 15:35:08 [notice] 12212#17908: signal process started
+2021/11/02 15:37:52 [notice] 6372#17152: signal process started
+2021/11/02 15:40:38 [notice] 18332#15636: signal process started
+2021/11/02 15:47:10 [notice] 15568#7108: signal process started
+2021/11/02 15:51:19 [notice] 16712#9652: signal process started
+2021/11/02 15:53:06 [notice] 17492#17932: signal process started
+2021/11/02 16:04:49 [notice] 12060#17096: signal process started
+2021/11/02 16:13:15 [notice] 18160#16740: signal process started
