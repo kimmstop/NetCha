@@ -1,1 +1,9 @@
 백엔드(Spring boot)메뉴얼
+
+1. openjdk 11 이상의 버전 설치
+
+2. Spring boot에 필요한 dependency들은 build.gradle에 "dependencies"에 기입
+
+3. $> ./gradlew build 로 빌드
+
+4. src/main/java/com/example/demo/에 있는 DemoApplication.java 실행

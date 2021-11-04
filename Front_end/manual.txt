@@ -1,1 +1,19 @@
 프론트엔드(React)메뉴얼
+
+1. Node.js 설치
+  (https://nodejs.org/ko/download/)
+  
+2. 프로젝트 폴더로 들어가서(깃허브 코드를 그대로 받은 경우 Front_end 폴더) 터미널에 "npm install" 입력
+  $> npm install
+
+3. node_modules 폴더 생성 확인
+
+4. 터미널에 "npm run-script build" 입력
+  $> npm run-script build
+
+5. build 폴더 생성 확인
+
+6. 터미널에 "npm start" 입력
+  $> npm start
+
+7. 자동으로 열리는 웹(localhost:3000)

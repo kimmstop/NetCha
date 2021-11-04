@@ -1,1 +1,20 @@
-프록시서버(nginx)메뉴얼
+1. conf폴더내의 nginx.conf 파일 수정
+----------------------------------------------------------------------
+  location / {
+            root  C:/Users/kimms/Desktop/netcha_front/fe/build;
+            index  index.html index.htm;
+            try_files $uri $uri/ /index.html;
+            
+        }
+-------------------------------------------------------------------
+  root 오른쪽에 있는 경로를 Front_end에서의 build폴더 위치로 설정
+  (경로에 한글이 있으면 에러가 발생합니다.)
+  (윈도우의 경우 기본 경로구분자인 '\'로 하지말고 '/'로 해야합니다.)
+2. nginx-1.21.3 폴더 안에 temp 폴더 생성
+
+3. nginx.exe 실행
+  ($>./nginx.exe)
+  (종료 : $> ./nginx.exe -s stop)
+
+  
+  
