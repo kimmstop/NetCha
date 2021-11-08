@@ -25,4 +25,4 @@
 # nobx 설치
   $> npm i --save mobx --save mobx-react
 
-  
+  fdsfsfadsf
