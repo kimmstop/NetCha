@@ -17,3 +17,10 @@
   $> npm start
 
 7. 자동으로 열리는 웹(localhost:3000)
+
+=============================================
+# axios 설치 (데이터 fetch)
+- $> npm install axios
+
+# nobx 설치
+  $> npm i --save mobx --save mobx-react
