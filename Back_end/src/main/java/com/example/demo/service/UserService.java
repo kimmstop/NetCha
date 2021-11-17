@@ -34,22 +34,21 @@ public class UserService implements UserDetailsService {
     }
 
     public void findAll() { /*현재 데이터베이스에 있는 모든 사용자 아이디 콘솔에 출력*/
-        System.out.println("!!!");
         List<Userentity> user_list = userRepository.findAll();
         for(int i = 0; i <user_list.size(); i++){
             System.out.println(user_list.get(i).getId());
         }
-        System.out.println("!!!");
     }
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        /*Todo
         if(userRepository.findById(username)){
             System.out.println("there is!");
         }
         else{
             System.out.println("None!");
-        }
+        }*/
         return null;
     }
     
