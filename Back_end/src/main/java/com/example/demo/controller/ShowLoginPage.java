@@ -10,6 +10,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,8 +21,14 @@ public class ShowLoginPage {
     private final UserService userService;
 
     @PostMapping("/user")
-    public String signup(UserInfoDto infoDto) {
-        userService.save(infoDto);
+    public String signup(@RequestParam String user_id, @RequestParam String password, @RequestParam String auth) {
+        UserInfoDto user_info = new UserInfoDto();
+        user_info.setId(user_id);
+        user_info.setPassword(password);
+        user_info.setAuth(auth);
+        userService.save(user_info);
+        userService.findAll();
+        //userService.getAllUsers();
         return "redirect:/login";
     }
 

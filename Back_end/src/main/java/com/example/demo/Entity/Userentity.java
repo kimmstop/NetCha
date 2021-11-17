@@ -19,26 +19,27 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-@Entity
+@Entity(name = "user_info")
 @Getter
 public class Userentity implements UserDetails{
     @Id
-    @Column(name =  "code")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long code;
+    @Column(name = "user_num")
+    private int user_num;
     
-    @Column(name = "email", unique = true)
-    private String email;
+    @Column(name = "user_id", unique = true)
+    private String id;
 
-    @Column(name = "password")
+    @Column(name = "user_passwd")
     private String password;
 
     @Column(name = "auth")
     private String auth;
 
     @Builder
-    public Userentity(String email, String password, String auth) {
-        this.email = email;
+    public Userentity(int user_num, String user_id, String password, String auth) {
+        this.user_num = user_num;
+        this.id = user_id;
         this.password = password;
         this.auth = auth;
     }
@@ -65,7 +66,7 @@ public class Userentity implements UserDetails{
 
     @Override
     public String getUsername() {
-        return email;
+        return id;
     }
     @Override
     public String getPassword() {
