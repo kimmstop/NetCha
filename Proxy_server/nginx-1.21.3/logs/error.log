@@ -184,3 +184,25 @@
 2021/11/02 16:04:49 [notice] 12060#17096: signal process started
 2021/11/02 16:13:15 [notice] 18160#16740: signal process started
 2021/11/02 21:04:29 [notice] 17208#17092: signal process started
+2021/11/17 23:14:31 [emerg] 12640#15316: CreateDirectory() "C:\Users\kimms\Desktop\Netcha\Proxy_server\nginx-1.21.3/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2021/11/17 23:20:49 [emerg] 500#13632: CreateDirectory() "C:\Users\kimms\Desktop\Netcha\Proxy_server\nginx-1.21.3/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2021/11/17 23:21:25 [error] 7788#6684: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /sockjs-node HTTP/1.1", host: "localhost:80"
+2021/11/17 23:22:09 [notice] 17272#11924: signal process started
+2021/11/17 23:22:14 [error] 5360#9864: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /sockjs-node HTTP/1.1", host: "localhost:80"
+2021/11/17 23:23:15 [error] 5360#9864: *7 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /sockjs-node HTTP/1.1", host: "localhost:80"
+2021/11/17 23:23:18 [error] 5360#9864: *11 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /sockjs-node HTTP/1.1", host: "localhost:80"
+2021/11/17 23:25:08 [notice] 13324#12348: signal process started
+2021/11/17 23:25:13 [error] 14788#13064: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /sockjs-node HTTP/1.1", host: "localhost:80"
+2021/11/17 23:25:44 [error] 14788#13064: *4 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /sockjs-node HTTP/1.1", host: "localhost:80"
+2021/11/17 23:25:56 [error] 14788#13064: *7 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /sockjs-node HTTP/1.1", host: "localhost:80"
+2021/11/17 23:25:59 [error] 14788#13064: *10 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /sockjs-node HTTP/1.1", host: "localhost:80"
+2021/11/17 23:54:13 [notice] 15952#9864: signal process started
+2021/11/17 23:54:20 [error] 10748#13176: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /sockjs-node HTTP/1.1", host: "localhost:80"
+2021/11/18 00:01:30 [notice] 13552#3980: signal process started
+2021/11/18 00:02:00 [error] 3960#7392: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /sockjs-node HTTP/1.1", host: "localhost:80"
+2021/11/19 17:58:19 [error] 8244#17880: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://[::1]:8080/netcha", host: "localhost:80", referrer: "http://localhost:3000/"
+2021/11/19 17:58:21 [error] 8244#17880: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://127.0.0.1:8080/netcha", host: "localhost:80", referrer: "http://localhost:3000/"
+2021/11/19 19:29:30 [notice] 3324#7764: signal process started
+2021/11/22 11:49:31 [error] 2092#9328: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://[::1]:8080/netcha", host: "localhost:80", referrer: "http://localhost:3000/"
+2021/11/22 11:49:33 [error] 2092#9328: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /netcha HTTP/1.1", upstream: "http://127.0.0.1:8080/netcha", host: "localhost:80", referrer: "http://localhost:3000/"
+2021/11/22 11:51:58 [notice] 13092#4608: signal process started

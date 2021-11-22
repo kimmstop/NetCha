@@ -25,7 +25,7 @@ public class Userentity implements UserDetails{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "user_num")
-    private int user_num;
+    private int userNum;
     
     @Column(name = "user_id", unique = true)
     private String id;
@@ -37,8 +37,8 @@ public class Userentity implements UserDetails{
     private String auth;
 
     @Builder
-    public Userentity(int user_num, String user_id, String password, String auth) {
-        this.user_num = user_num;
+    public Userentity(int userNum, String user_id, String password, String auth) {
+        this.userNum = userNum;
         this.id = user_id;
         this.password = password;
         this.auth = auth;
