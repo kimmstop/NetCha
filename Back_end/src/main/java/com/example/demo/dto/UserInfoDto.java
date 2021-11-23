@@ -6,8 +6,14 @@ import lombok.Setter;
 @Getter
 @Setter
 public class UserInfoDto {
-    private int user_num;
+    private int userNum;
     private String id;
     private String password;
     private String auth;
+
+    public UserInfoDto(String id, String password, String auth) {
+        this.id = id;
+        this.password = password;
+        this.auth = auth;
+    }
 }

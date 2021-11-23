@@ -3,21 +3,19 @@ package com.example.demo.Entity;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Entity(name = "user_info")
 @Getter
@@ -57,21 +55,22 @@ public class Userentity implements UserDetails{
     public boolean isAccountNonLocked() {
         return true;
     }
+
     @Override
     public boolean isEnabled() {
         return true;
     }
 
- 
-
     @Override
     public String getUsername() {
         return id;
     }
+
     @Override
     public String getPassword() {
       return password;
     }
+    
     @Override
     public boolean isAccountNonExpired() {
         return true;

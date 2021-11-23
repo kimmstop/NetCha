@@ -1,13 +1,15 @@
 package com.example.demo.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
+import java.util.List;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 
 @Mapper
 @Repository
 public interface UserMapper {
-     ArrayList<HashMap<String, Object>> findAll();
+     List<String> findIdinDB(String id);
+     void saveUserInfo(@Param("userNum") int userNum, @Param("id") String id, 
+     @Param("password") String passowrd, @Param("auth") String auth);
 }   

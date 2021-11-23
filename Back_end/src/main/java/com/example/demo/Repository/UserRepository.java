@@ -12,6 +12,4 @@ import org.springframework.stereotype.Repository;
 public interface UserRepository extends JpaRepository<Userentity, Long>{
     List<Userentity> findAll();
     Optional<Userentity> findById(String user_id);
-    /*Todo
-    List<Userentity> getUserInfoById(String user_id);*/
 }
