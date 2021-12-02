@@ -911,3 +911,4 @@
 127.0.0.1 - - [18/Nov/2021:00:02:01 +0900] "GET /netcha HTTP/1.1" 200 8 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
 127.0.0.1 - - [19/Nov/2021:17:58:21 +0900] "GET /netcha HTTP/1.1" 502 516 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
 127.0.0.1 - - [22/Nov/2021:11:49:33 +0900] "GET /netcha HTTP/1.1" 502 516 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36"
+127.0.0.1 - - [25/Nov/2021:19:37:06 +0900] "GET /netcha HTTP/1.1" 502 516 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36"
