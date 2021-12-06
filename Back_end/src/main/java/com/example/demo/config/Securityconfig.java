@@ -1,8 +1,9 @@
 package com.example.demo.config;
 
 
-import com.example.demo.service.UserService;
-import com.example.demo.service.loginSuccessHandler;
+
+import com.example.demo.service.SignupService;
+import com.example.demo.service.LoginSuccessService;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -18,7 +19,7 @@ import lombok.RequiredArgsConstructor;
 @EnableWebSecurity
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter{
-    private final UserService userService;
+    private final SignupService signupService;
 
     @Override
     public void configure(WebSecurity web) {
@@ -28,28 +29,27 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
     @Override  
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-            .antMatchers("/login", "/signup", "/user", "/mainpage", "/main", "/find", "/ranking").permitAll() 
-            .antMatchers("/").hasRole("USER") 
-            .antMatchers("/admin").hasRole("ADMIN") 
+            .antMatchers("/login", "/signup", "/user", "/main", "/ranking", "/signup_check").permitAll() 
+            .antMatchers("/user").hasRole("USER") 
+            .antMatchers("/admin").hasRole("ADMIN, ROLE_USER") 
             .anyRequest().authenticated()
         
         .and()
-            .formLogin() //인증 성공 후 spring security에서 설정한 기본 로그인 폼 대신 사용할 폼 지정
-                .loginPage("/mainpage")
+            .formLogin()
+                .loginPage("/main")
                 .loginProcessingUrl("/login_check")
                 .usernameParameter("user_id")
                 .passwordParameter("password")
-                .successHandler(new loginSuccessHandler())
+                .successHandler(new LoginSuccessService())
         .and()
             .logout()
                 .logoutSuccessUrl("/login")
                 .invalidateHttpSession(true)
-      
         ;
     }
   
     public void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.userDetailsService(userService)
+        auth.userDetailsService(signupService)
             .passwordEncoder(new BCryptPasswordEncoder());
     }
 }

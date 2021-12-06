@@ -16,6 +16,7 @@ import javax.sql.DataSource;
 
 @Configuration
 @MapperScan(value = "com.example.demo", sqlSessionFactoryRef = "SqlSessionFactory")
+
 public class MybatisConfig {
     @Value("${mybatis.mapper-locations}")
     String mPath;
