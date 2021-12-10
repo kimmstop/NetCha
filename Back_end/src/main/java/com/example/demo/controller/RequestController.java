@@ -24,7 +24,6 @@ public class RequestController {
     @PostMapping("/signup_check")
     public String userSignup(@RequestParam String receivedId, @RequestParam String receivedPassword, @RequestParam String receivedAuth) {
         if(signupService.isReceivedIdDuplicate(receivedId)) {
-            System.out.println("DD");
             return "redirect:/signupfail";
         }
         else {
