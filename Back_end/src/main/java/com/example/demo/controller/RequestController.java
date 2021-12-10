@@ -24,12 +24,13 @@ public class RequestController {
     @PostMapping("/signup_check")
     public String userSignup(@RequestParam String receivedId, @RequestParam String receivedPassword, @RequestParam String receivedAuth) {
         if(signupService.isReceivedIdDuplicate(receivedId)) {
-            return "redirect:/loginpage";
+            System.out.println("DD");
+            return "redirect:/signupfail";
         }
         else {
             UserInfoDto receivedUserInfo = new UserInfoDto(receivedId, receivedPassword, receivedAuth);
             signupService.saveReceivedUserInfoToDB(receivedUserInfo);
-            return "redirect:/loginpage";
+            return "redirect:/login";
         }
     }
     /* Mayble.. ToDo....?*/
