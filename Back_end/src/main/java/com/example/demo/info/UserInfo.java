@@ -1,4 +1,4 @@
-package com.example.demo.Entity;
+package com.example.demo.info;
 
 import java.util.Collection;
 import java.util.HashSet;
@@ -17,25 +17,25 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-@Entity(name = "user_info")
+@Entity(name = "user")
 @Getter
-public class Userentity implements UserDetails {
-    @Id
+public class UserInfo implements UserDetails {
+    
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "user_num")
     private int userNum;
-    
+    @Id
     @Column(name = "user_id", unique = true)
     private String id;
 
-    @Column(name = "user_passwd")
+    @Column(name = "user_password")
     private String password;
 
-    @Column(name = "auth")
+    @Column(name = "user_auth")
     private String auth;
 
     @Builder
-    public Userentity(int userNum, String user_id, String password, String auth) {
+    public UserInfo(int userNum, String user_id, String password, String auth) {
         this.userNum = userNum;
         this.id = user_id;
         this.password = password;

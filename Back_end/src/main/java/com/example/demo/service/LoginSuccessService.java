@@ -22,12 +22,12 @@ public class LoginSuccessService implements AuthenticationSuccessHandler {
     public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response,
             Authentication authentication) throws IOException, ServletException {
         HttpSession session = request.getSession();
+        System.out.println(authentication.getAuthorities().toString());
         session.setAttribute("greet", authentication.getName());
         if(isAdminUser(authentication)){
             response.sendRedirect("/admin");
         }
         else
             response.sendRedirect("/user");
-        
     }   
 }

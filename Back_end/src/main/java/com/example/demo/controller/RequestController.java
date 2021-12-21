@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.example.demo.crawler.RankingCrawler;
-import com.example.demo.dto.UserInfoDto;
+import com.example.demo.info.UserInfoDto;
 import com.example.demo.service.SignupService;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
@@ -24,11 +24,12 @@ public class RequestController {
     @PostMapping("/signup_check")
     public String userSignup(@RequestParam String receivedId, @RequestParam String receivedPassword, @RequestParam String receivedAuth) {
         if(signupService.isReceivedIdDuplicate(receivedId)) {
-            return "redirect:/signupfail";
+            return "redirect:/signup_fail";
         }
         else {
             UserInfoDto receivedUserInfo = new UserInfoDto(receivedId, receivedPassword, receivedAuth);
             signupService.saveReceivedUserInfoToDB(receivedUserInfo);
+            System.out.println(receivedId);
             return "redirect:/login";
         }
     }
@@ -40,8 +41,6 @@ public class RequestController {
         return name;
     }
     /*                    */
-
-
 
     @GetMapping("/logout")
     public String logoutPage(HttpServletRequest request, HttpServletResponse response) {
