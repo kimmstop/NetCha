@@ -29,7 +29,6 @@ public class RequestController {
         else {
             UserInfoDto receivedUserInfo = new UserInfoDto(receivedId, receivedPassword, receivedAuth);
             signupService.saveReceivedUserInfoToDB(receivedUserInfo);
-            System.out.println(receivedId);
             return "redirect:/login";
         }
     }
